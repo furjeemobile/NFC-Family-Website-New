@@ -1,0 +1,32 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Ferdi\Desktop\NFC Family new\.npmrc
+5 silly config load:file:C:\Users\Ferdi\.npmrc
+6 silly config load:file:C:\Users\Ferdi\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm audit
+8 verbose argv "audit" "--json"
+9 verbose logfile logs-max:10 dir:C:\Users\Ferdi\Desktop\NFC Family new\.npm-cache\_logs\2026-06-25T08_20_30_894Z-
+10 verbose logfile C:\Users\Ferdi\Desktop\NFC Family new\.npm-cache\_logs\2026-06-25T08_20_30_894Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose stack Error: loadVirtual requires existing shrinkwrap file
+13 verbose stack     at Arborist.loadVirtual (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\load-virtual.js:42:18)
+13 verbose stack     at async Arborist.audit (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\index.js:271:14)
+13 verbose stack     at async Audit.auditAdvisories (C:\Program Files\nodejs\node_modules\npm\lib\commands\audit.js:69:5)
+13 verbose stack     at async Audit.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\audit.js:49:7)
+13 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:209:9)
+13 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+14 error code ENOLOCK
+15 error audit This command requires an existing lockfile.
+16 error audit Try creating one first with: npm i --package-lock-only
+17 error audit Original error: loadVirtual requires existing shrinkwrap file
+18 silly unfinished npm timer audit 1782375631181
+19 verbose cwd C:\Users\Ferdi\Desktop\NFC Family new
+20 verbose os Windows_NT 10.0.26200
+21 verbose node v24.14.1
+22 verbose npm  v11.11.0
+23 verbose exit 1
+24 verbose code 1
+25 error A complete log of this run can be found in: C:\Users\Ferdi\Desktop\NFC Family new\.npm-cache\_logs\2026-06-25T08_20_30_894Z-debug-0.log
